@@ -258,7 +258,7 @@ ul{
       font-size: 10px;
   }
   }
-  @media(max-width: 574px){
+  @media(max-width: 400px){
     .parrafoo{
         font-size: 10px;
       width: 100%;
@@ -266,6 +266,20 @@ ul{
   }
   
   }
+
+/*CONTACTO FORMULARIO*/
+
+.mb-3{
+    color: #fff;
+    text-align: center;
+}
+.mb-2{
+    color: #fff;
+}
+.card col-md-5 p-3{
+    color: #222;
+}
+
 
 
 
