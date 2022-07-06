@@ -340,7 +340,7 @@ ul {
           transform: translateX(-50%);
   width: 100px;
   height: 4px;
-  background-color: #2ecc71;
+  background-color: #3bffe8;
   border-radius: 2px;
 }
 
@@ -399,7 +399,7 @@ ul {
   width: 20px;
   height: 4px;
   border-radius: 2px 0 0 2px;
-  background-color: #2ecc71;
+  background-color: #3bffe8;
   -webkit-transition: .5s;
   transition: .5s;
 }
@@ -412,7 +412,7 @@ ul {
   width: 100px;
   height: 4px;
   border-radius: 0 2px 2px 0;
-  background-color: #2ecc71;
+  background-color: #3bffe8;
 }
 
 .skills-icons {
@@ -471,5 +471,102 @@ ul {
 
 .p-color {
   color: #fff;
+}
+
+/*Section certificados*/
+.galeria h1 {
+  text-align: center;
+  font-size: 45px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.linea {
+  border-top: 5px solid #3bffe8;
+  margin-bottom: 40px;
+}
+
+.contenedor-imagenes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 85%;
+  margin: auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-radius: 3px;
+}
+
+.contenedor-imagenes .imagen {
+  width: 33%;
+  position: relative;
+  height: 393px;
+  margin-bottom: 5px;
+}
+
+.imagen img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #a9b3a9;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+
+.overlay h2 {
+  color: #fff;
+  font-weight: 300;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.imagen:hover .overlay {
+  height: 20%;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  .contenedor-imagenes {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .contenedor-imagenes {
+    width: 100%;
+  }
+  .contenedor-imagenes .imagen {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  h1 {
+    font-size: 15px;
+  }
+  .contenedor-imagenes {
+    width: 100%;
+  }
+  .contenedor-imagenes .imagen {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
