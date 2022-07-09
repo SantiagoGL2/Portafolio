@@ -57,7 +57,7 @@ body{
         text-decoration: none;
         text-transform: uppercase;
         font-size: 4em;
-        color: #fff;
+        color: $color__secundario;
         font-weight: 700;
         transition:0.5s;
         }
@@ -112,7 +112,7 @@ ul{
    padding: 0 15px;
    h4{
         font-size: 18px;
-	    color: #ffffff;
+	    color: $color__secundario;
 	    text-transform: capitalize;
 	    margin-bottom: 35px;
 	    font-weight: 500;
@@ -138,14 +138,14 @@ ul{
 .footer-col ul li a{
 	font-size: 16px;
 	text-transform: capitalize;
-	color: #ffffff;
+	color: $color__secundario;
 	text-decoration: none;
 	font-weight: 300;
 	color: #bbbbbb;
 	display: block;
 	transition: all 0.3s ease;
     &:hover{
-        color: #ffffff;
+        color: $color__secundario;
         padding-left: 8px; 
     }
 }
@@ -158,11 +158,11 @@ ul{
 	text-align: center;
 	line-height: 40px;
 	border-radius: 50%;
-	color: #ffffff;
+	color: $color__secundario;
 	transition: all 0.5s ease;
     &:hover{
         color: #24262b;
-	    background-color: #ffffff;
+	    background-color: $color__secundario;
     }
 }
 /*responsive footer*/
@@ -181,7 +181,7 @@ ul{
 .contenido{
     font-size: 25px;
     text-align: center;
-    color: #ffffff;
+    color: $color__secundario;
     display: table;
     height: 600px;
     margin: 2rem auto;
@@ -220,7 +220,7 @@ ul{
 .Csobremi{
     font-size: 25px;
     text-align: center;
-    color: #ffffff;
+    color: $color__secundario;
     display: table;
     height: 600px;
     margin: 2rem auto;
@@ -257,18 +257,18 @@ ul{
 }
 /*CONTACTO FORMULARIO*/
 .mb-3{
-    color: #fff;
+    color: $color__secundario;
     text-align: center;
 }
 .mb-2{
-    color: #fff;
+    color: $color__secundario;
 }
 .card col-md-5 p-3{
     color: #222;
 }
 /*PROYECTOS */
 .card-text, .card-title{
-    color: #fff;
+    color: $color__secundario;
 }
 /*Contenido habilidades*/
 .skills-section{
@@ -276,7 +276,7 @@ ul{
     }   
 .skills-header{
     text-align: center;
-    color: #fff;
+    color: $color__secundario;
     padding: 1rem;
     position: relative;
     &:after{
@@ -341,7 +341,7 @@ position: relative;
     background-color: $color__primario;
     }
     h3{
-        color: #fff;
+        color: $color__secundario;
         margin-top: 0.5rem
     }
     
@@ -385,7 +385,7 @@ padding: 2rem 50px;
     }
 }
 .p-color{
-    color: #fff;
+    color: $color__secundario;
 }
 /*Section certificados*/
 .galeria h1{
@@ -393,7 +393,7 @@ padding: 2rem 50px;
     font-size: 45px;
     margin-top: 50px;
     margin-bottom: 20px;
-    color: #fff;
+    color: $color__secundario;
 }
 .linea{
     border-top: 5px solid $color__primario;
@@ -428,7 +428,7 @@ padding: 2rem 50px;
     overflow: hidden;
     transition: .5s ease;
     h2{
-        color: #fff;
+        color: $color__secundario;
         font-weight: 300;
         font-size:30px;
         position: absolute;
