@@ -165,6 +165,9 @@ ul{
 	    background-color: $color__secundario;
     }
 }
+.fab{
+    background-color: rgb(255 0 0 / 0%);
+}
 /*responsive footer*/
 @media(max-width: 767px){
   .footer-col{
@@ -349,13 +352,14 @@ position: relative;
 .skills-icons{
 width:50px;
 z-index:2;
+background-color: #fff00000;
 }    
 .skills-img{
 width:90px;
 height:90px;    
 position: relative;
-border-radius: 45px;
-background-color: #fff;
+border-radius: 50%;
+background-color: $color__secundario;
 display:flex;
 justify-content:center;
 align-items:center;
@@ -393,7 +397,7 @@ padding: 2rem 50px;
     font-size: 45px;
     margin-top: 50px;
     margin-bottom: 20px;
-    color: $color__secundario;
+    color: #fff;
 }
 .linea{
     border-top: 5px solid $color__primario;
@@ -428,7 +432,7 @@ padding: 2rem 50px;
     overflow: hidden;
     transition: .5s ease;
     h2{
-        color: $color__secundario;
+        color: #fff;
         font-weight: 300;
         font-size:30px;
         position: absolute;
